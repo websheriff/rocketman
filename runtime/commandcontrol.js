@@ -4,7 +4,7 @@ var bugsnag = require('bugsnag')
 var config = require('../config.json')
 bugsnag.register(config.api_keys.bugsnag)
 var com = directory(module, './commands', {
-  exclude: /custom/
+  //exclude: /custom/
 })
 var cus = directory(module, './commands/custom')
 var Logger = require('./internal/logger.js').Logger

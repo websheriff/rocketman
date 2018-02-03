@@ -14,7 +14,7 @@ if (config.elasticsearch.use === true) {
     level: 'silly',
     consistency: false,
     client: new elasticsearch.Client(config.elasticsearch.client),
-    indexPrefix: 'wildbeast'
+    indexPrefix: 'rocketman'
   }
   Logger = new Winston.Logger({
     colors: {
